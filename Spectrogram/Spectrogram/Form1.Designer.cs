@@ -32,6 +32,11 @@
             this.BtnSearch = new System.Windows.Forms.Button();
             this.BtnGo = new System.Windows.Forms.Button();
             this.BtnStop = new System.Windows.Forms.Button();
+            this.BtnReset = new System.Windows.Forms.Button();
+            this.BtnDump = new System.Windows.Forms.Button();
+            this.scbarVolume = new System.Windows.Forms.TrackBar();
+            this.lblVolume = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.scbarVolume)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -70,17 +75,62 @@
             this.BtnStop.UseVisualStyleBackColor = true;
             this.BtnStop.Click += new System.EventHandler(this.BtnStop_Click);
             // 
+            // BtnReset
+            // 
+            this.BtnReset.Location = new System.Drawing.Point(120, 41);
+            this.BtnReset.Name = "BtnReset";
+            this.BtnReset.Size = new System.Drawing.Size(102, 23);
+            this.BtnReset.TabIndex = 3;
+            this.BtnReset.Text = "Reset Position";
+            this.BtnReset.UseVisualStyleBackColor = true;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
+            // 
+            // BtnDump
+            // 
+            this.BtnDump.Location = new System.Drawing.Point(12, 41);
+            this.BtnDump.Name = "BtnDump";
+            this.BtnDump.Size = new System.Drawing.Size(102, 23);
+            this.BtnDump.TabIndex = 4;
+            this.BtnDump.Text = "Remove";
+            this.BtnDump.UseVisualStyleBackColor = true;
+            this.BtnDump.Click += new System.EventHandler(this.BtnDump_Click);
+            // 
+            // scbarVolume
+            // 
+            this.scbarVolume.Location = new System.Drawing.Point(336, 16);
+            this.scbarVolume.Name = "scbarVolume";
+            this.scbarVolume.Size = new System.Drawing.Size(206, 45);
+            this.scbarVolume.TabIndex = 7;
+            this.scbarVolume.Value = 10;
+            this.scbarVolume.Scroll += new System.EventHandler(this.ScbarVolume_Scroll);
+            // 
+            // lblVolume
+            // 
+            this.lblVolume.AutoSize = true;
+            this.lblVolume.Location = new System.Drawing.Point(228, 41);
+            this.lblVolume.Name = "lblVolume";
+            this.lblVolume.Size = new System.Drawing.Size(57, 13);
+            this.lblVolume.TabIndex = 8;
+            this.lblVolume.Text = "Volume: ...";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(392, 277);
+            this.ClientSize = new System.Drawing.Size(557, 277);
+            this.Controls.Add(this.lblVolume);
+            this.Controls.Add(this.scbarVolume);
+            this.Controls.Add(this.BtnDump);
+            this.Controls.Add(this.BtnReset);
             this.Controls.Add(this.BtnStop);
             this.Controls.Add(this.BtnGo);
             this.Controls.Add(this.BtnSearch);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.scbarVolume)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -90,6 +140,10 @@
         private System.Windows.Forms.Button BtnSearch;
         private System.Windows.Forms.Button BtnGo;
         private System.Windows.Forms.Button BtnStop;
+        private System.Windows.Forms.Button BtnReset;
+        private System.Windows.Forms.Button BtnDump;
+        private System.Windows.Forms.TrackBar scbarVolume;
+        private System.Windows.Forms.Label lblVolume;
     }
 }
 
