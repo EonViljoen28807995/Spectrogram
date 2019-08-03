@@ -8,3 +8,16 @@ C:\Users\Eon Viljoen\source\repos\Spectrogram\Spectrogram\obj\Debug\Spectrogram.
 C:\Users\Eon Viljoen\source\repos\Spectrogram\Spectrogram\obj\Debug\Spectrogram.csproj.CoreCompileInputs.cache
 C:\Users\Eon Viljoen\source\repos\Spectrogram\Spectrogram\obj\Debug\Spectrogram.exe
 C:\Users\Eon Viljoen\source\repos\Spectrogram\Spectrogram\obj\Debug\Spectrogram.pdb
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\bin\Debug\Spectrogram.exe.config
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\bin\Debug\Spectrogram.exe
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\bin\Debug\Spectrogram.pdb
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\bin\Debug\NAudio.dll
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\bin\Debug\NAudio.xml
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.csprojAssemblyReference.cache
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.Form1.resources
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.Properties.Resources.resources
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.csproj.GenerateResource.cache
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.csproj.CoreCompileInputs.cache
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.csproj.CopyComplete
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.exe
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.pdb

@@ -8,25 +8,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using NAudio.Wave;
 
 namespace Spectrogram
 {
     public partial class Form1 : Form
     {
-        private string path = "";
-        private SoundPlayer sound;
+        private string path;
+        private WaveOutEvent outputDevice;
+        private AudioFileReader audioFile;
 
         public Form1()
         {
             InitializeComponent();
+            outputDevice = new WaveOutEvent();
         }
 
         private void OpenFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
             path = openFileDialog1.FileName;
-            LblTest.Text = path;
-
-            sound = new SoundPlayer(path);
+            audioFile = new AudioFileReader(path);
+            outputDevice.Init(audioFile);
+            
         }
 
         private void BtnSearch_Click(object sender, EventArgs e)
@@ -36,7 +39,12 @@ namespace Spectrogram
 
         private void BtnGo_Click(object sender, EventArgs e)
         {
-            sound.Play();
+            outputDevice.Play();
+        }
+
+        private void BtnStop_Click(object sender, EventArgs e)
+        {
+            outputDevice?.Stop();
         }
     }
 }
