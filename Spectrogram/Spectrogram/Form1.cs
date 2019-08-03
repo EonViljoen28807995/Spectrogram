@@ -42,6 +42,8 @@ namespace Spectrogram
         {
             outputDevice.Play();
             lblVolume.Text = "Volume: " + (audioFile.Volume*10).ToString();
+
+            
         }
 
         private void BtnStop_Click(object sender, EventArgs e)
@@ -82,5 +84,7 @@ namespace Spectrogram
             audioFile.Volume = scbarVolume.Value / 10f;
             lblVolume.Text = "Volume: " + (scbarVolume.Value*10).ToString();
         }
+
+        
     }
 }
