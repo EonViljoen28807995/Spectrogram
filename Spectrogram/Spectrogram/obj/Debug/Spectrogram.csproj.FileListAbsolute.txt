@@ -21,3 +21,5 @@ C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram
 C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.csproj.CopyComplete
 C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.exe
 C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\obj\Debug\Spectrogram.pdb
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\bin\Debug\WaveFormRendererLib.dll
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\Spectrogram\Spectrogram\Spectrogram\bin\Debug\WaveFormRendererLib.pdb

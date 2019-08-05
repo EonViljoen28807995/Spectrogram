@@ -36,7 +36,10 @@
             this.BtnDump = new System.Windows.Forms.Button();
             this.scbarVolume = new System.Windows.Forms.TrackBar();
             this.lblVolume = new System.Windows.Forms.Label();
+            this.BtnRender = new System.Windows.Forms.Button();
+            this.PctbxWave = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.scbarVolume)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PctbxWave)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -113,11 +116,31 @@
             this.lblVolume.TabIndex = 8;
             this.lblVolume.Text = "Volume: ...";
             // 
+            // BtnRender
+            // 
+            this.BtnRender.Location = new System.Drawing.Point(12, 70);
+            this.BtnRender.Name = "BtnRender";
+            this.BtnRender.Size = new System.Drawing.Size(102, 23);
+            this.BtnRender.TabIndex = 9;
+            this.BtnRender.Text = "Render";
+            this.BtnRender.UseVisualStyleBackColor = true;
+            this.BtnRender.Click += new System.EventHandler(this.BtnRender_Click);
+            // 
+            // PctbxWave
+            // 
+            this.PctbxWave.Location = new System.Drawing.Point(14, 99);
+            this.PctbxWave.Name = "PctbxWave";
+            this.PctbxWave.Size = new System.Drawing.Size(529, 242);
+            this.PctbxWave.TabIndex = 10;
+            this.PctbxWave.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(557, 277);
+            this.ClientSize = new System.Drawing.Size(555, 353);
+            this.Controls.Add(this.PctbxWave);
+            this.Controls.Add(this.BtnRender);
             this.Controls.Add(this.lblVolume);
             this.Controls.Add(this.scbarVolume);
             this.Controls.Add(this.BtnDump);
@@ -129,6 +152,7 @@
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.scbarVolume)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PctbxWave)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,6 +168,8 @@
         private System.Windows.Forms.Button BtnDump;
         private System.Windows.Forms.TrackBar scbarVolume;
         private System.Windows.Forms.Label lblVolume;
+        private System.Windows.Forms.Button BtnRender;
+        private System.Windows.Forms.PictureBox PctbxWave;
     }
 }
 

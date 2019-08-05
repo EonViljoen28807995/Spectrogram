@@ -1,0 +1,9 @@
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\bin\Debug\WaveFormRendererLib.dll
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\bin\Debug\WaveFormRendererLib.pdb
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\bin\Debug\NAudio.dll
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\bin\Debug\NAudio.xml
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\obj\Debug\WaveFormRendererLib.csprojAssemblyReference.cache
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\obj\Debug\WaveFormRendererLib.csproj.CoreCompileInputs.cache
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\obj\Debug\WaveFormRendererLib.csproj.CopyComplete
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\obj\Debug\WaveFormRendererLib.dll
+C:\Users\Eon Viljoen\Documents\Work\Projects\Spectrogram\NAudio.WaveFormRenderer\WaveFormRendererLib\obj\Debug\WaveFormRendererLib.pdb
